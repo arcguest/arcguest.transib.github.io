@@ -1,0 +1,32 @@
+.cover {
+  display: flex;
+  flex-direction: column;
+  max-width: var(--max-width-basic);
+  height: 740px;
+  margin: 0 var(--margin-sides-large) 92px;
+  position: relative;
+}
+
+@media (max-width: 1024px){
+  .cover {
+    margin: 0 0 92px;
+    max-width: 1024px;
+    height: 640px;
+  }
+}
+
+@media (max-width: 768px){
+  .cover {
+    margin: 0 0 88px;
+    max-width: 768px;
+    height: 380px;
+  }
+}
+
+@media (max-width: 320px){
+  .cover {
+    margin: 0 0 64px;
+    max-width: 320px;
+    height: 200px;
+  }
+}

@@ -1,0 +1,13 @@
+.places__place {
+  display: grid;
+  grid-template: min-content 1fr/min-content 1fr;
+  column-gap: 40px;
+  row-gap: 48px;
+}
+
+@media (max-width: 768px) {
+  .places__place {
+    grid-template: repeat(4, min-content)/min-content;
+    justify-content: center;
+  }
+}

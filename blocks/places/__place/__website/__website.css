@@ -1,0 +1,7 @@
+.places__place__website {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: max-content;
+  margin: 0;
+}

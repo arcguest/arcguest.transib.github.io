@@ -1,0 +1,10 @@
+.link {
+  color: white;
+  text-indent: 0;
+  transition: .5s ease-in-out;
+}
+
+.link:hover {
+  opacity: .8;
+  color: grey;
+}
