@@ -1,7 +1,7 @@
 .cover__link {
   position: absolute;
   max-width: 1184px;
-  background: url(../../../images/cover/__background.jpg);
+  background: url(../../../images/cover/background.jpg);
   background-size: cover;
   color: white;
   text-decoration: none;
